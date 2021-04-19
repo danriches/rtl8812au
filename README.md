@@ -110,6 +110,7 @@ $ sudo apt-get install build-essential libelf-dev linux-headers-`uname -r`
 ```
 $ sudo apt-get install raspberrypi-kernel-headers
 ```
+Please note: For Raspberry Pi OS (32 bit) just use sudo make and sudo make install. Then sudo modprobe 8812au rtw_switch_usb_mode=1. DJR 19/04/2021
 
 Then run this step to change platform in Makefile, For RPI 1/2/3/ & 0/Zero:
 ```
